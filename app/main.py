@@ -4,7 +4,7 @@ from . import models, schemas
 from .database import SessionLocal, engine
 from .hashing import Hasher
 
-models.Base.metadata.create_all(bind=engine)
+
 
 app = FastAPI()
 

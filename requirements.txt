@@ -1,0 +1,19 @@
+# FastAPI and Server
+fastapi
+uvicorn[standard]
+
+# Database and ORM
+sqlalchemy
+psycopg2-binary
+alembic
+
+# Data Validation and Settings
+pydantic[email]
+python-dotenv
+
+# Security
+passlib[bcrypt]
+
+# Testing
+pytest
+httpx
