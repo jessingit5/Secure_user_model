@@ -9,6 +9,8 @@ alembic
 
 # Data Validation and Settings
 pydantic[email]
+pydantic-settings
+
 python-dotenv
 
 # Security
